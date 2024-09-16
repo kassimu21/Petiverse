@@ -1,0 +1,64 @@
+.image-icon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.faith-gerry {
+  align-self: stretch;
+  position: relative;
+}
+.faith-gerry-wrapper,
+.image-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.faith-gerry-wrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.image-parent {
+  width: 247px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.icons4,
+.icons5 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons5 {
+  height: 20px;
+  width: 20px;
+}
+.suggestion-user-action-icons-l,
+.suggestions-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.suggestions-items {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 450px) {
+  .faith-gerry {
+    font-size: var(--font-size-lgi);
+  }
+  .suggestions-items {
+    flex-wrap: wrap;
+  }
+}
