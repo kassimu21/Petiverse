@@ -1,0 +1,39 @@
+.button,
+.icons {
+  position: relative;
+}
+.button {
+  font-weight: 500;
+}
+.icons {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button-parent {
+  border-radius: var(--br-11xs);
+  background-color: var(--button);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-172xl);
+  gap: var(--gap-3xs);
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--background-default-default);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 750px) {
+  .button-parent {
+    padding-left: var(--padding-76xl);
+    padding-right: var(--padding-76xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .button {
+    font-size: var(--font-size-xl);
+  }
+}

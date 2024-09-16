@@ -1,0 +1,176 @@
+.enter-a-new,
+.reset-your-password {
+  position: relative;
+  font-family: var(--font-lato);
+  text-align: left;
+  display: inline-block;
+}
+.reset-your-password {
+  margin: 0;
+  font-size: var(--font-size-15xl);
+  font-weight: 600;
+  color: var(--color-black);
+  max-width: 100%;
+}
+.enter-a-new {
+  align-self: stretch;
+  height: 48px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-dimgray-200);
+  flex-shrink: 0;
+}
+.reset-your-password-parent,
+.right-form-inner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.reset-your-password-parent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.right-form-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4xs) var(--padding-sm) var(--padding-mini);
+  box-sizing: border-box;
+}
+.remember-me-checkbox {
+  margin: 0;
+  width: 15px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  border: 1px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+}
+.remember-me {
+  height: 14px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+}
+.frame-group,
+.frame-wrapper,
+.remember-me-checkbox-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.remember-me-checkbox-parent {
+  gap: var(--gap-6xs);
+}
+.frame-group,
+.frame-wrapper {
+  align-self: stretch;
+}
+.frame-group {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-13xl);
+}
+.button-child {
+  align-self: stretch;
+  width: 505px;
+  position: relative;
+  background-color: var(--color-black);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.reset-password {
+  height: 17px;
+  width: 209px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 19.3px;
+  left: calc(50% - 104.5px);
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--background-default-default);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-black);
+  height: 59.2px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.button:hover {
+  background-color: var(--color-darkslategray-200);
+}
+.button-wrapper,
+.right-form1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.button-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) 0 var(--padding-4xs);
+}
+.right-form1 {
+  margin: 0;
+  width: 588px;
+  box-shadow: 0 2px 25.4px 1px rgba(169, 0, 0, 0.13);
+  border-radius: var(--br-12xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-52xl) var(--padding-19xl) var(--padding-42xl)
+    var(--padding-13xl);
+  gap: var(--gap-33xl);
+}
+@media screen and (max-width: 1050px) {
+  .enter-a-new,
+  .reset-your-password {
+    font-size: var(--font-size-xl);
+  }
+  .remember-me {
+    font-size: var(--single-line-body-base-size);
+  }
+  .reset-password {
+    font-size: var(--font-size-lgi);
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-group {
+    gap: var(--gap-base);
+  }
+  .right-form1 {
+    gap: var(--gap-7xl);
+    padding-top: var(--padding-27xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .reset-your-password {
+    font-size: var(--font-size-8xl);
+  }
+}

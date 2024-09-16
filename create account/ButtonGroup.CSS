@@ -1,0 +1,100 @@
+.star-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button3 {
+  position: relative;
+  line-height: 100%;
+}
+.x-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  flex-shrink: 0;
+}
+.button2,
+.star-icon1,
+.x-icon {
+  overflow: hidden;
+  display: none;
+}
+.button2 {
+  width: 112px;
+  border-radius: var(--radius-200);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-300);
+  box-sizing: border-box;
+  gap: var(--space-200);
+}
+.star-icon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  flex-shrink: 0;
+}
+.create-account1 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+}
+.x-icon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button-group1,
+.button4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.button4 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 2px solid var(--background-brand-default);
+  box-sizing: border-box;
+  overflow: hidden;
+  justify-content: center;
+  padding: var(--padding-mini) var(--padding-232xl);
+  gap: var(--space-200);
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+.button-group1 {
+  height: 60px;
+  justify-content: flex-start;
+  gap: var(--space-400);
+  text-align: left;
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-neutral-default);
+  font-family: var(--single-line-body-base);
+}
+@media screen and (max-width: 675px) {
+  .button4 {
+    padding-left: var(--padding-106xl);
+    padding-right: var(--padding-106xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .create-account1 {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .button4 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

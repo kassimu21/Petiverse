@@ -1,0 +1,32 @@
+.create-an-account1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--background-default-default);
+  text-align: left;
+}
+.create-an-account-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-174xl);
+  background-color: var(--button);
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.create-an-account-wrapper:hover {
+  background-color: var(--color-dimgray-500);
+}
+@media screen and (max-width: 450px) {
+  .create-an-account1 {
+    font-size: var(--font-size-lgi);
+  }
+  .create-an-account-wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

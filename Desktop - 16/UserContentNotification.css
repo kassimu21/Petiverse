@@ -1,0 +1,81 @@
+.image-icon4 {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+}
+.alexendra-al-himcut,
+.kamils-sandra {
+  font-weight: 500;
+}
+.posting-exciting {
+  white-space: pre-wrap;
+}
+.alexendra-al-himcut-commented-container,
+.minutes-ago1 {
+  position: relative;
+}
+.minutes-ago1 {
+  align-self: stretch;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.alexendra-al-himcut-commented-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  min-width: 283px;
+  max-width: 100%;
+}
+.user-image-notification2 {
+  width: 505px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.icons8,
+.icons9 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons9 {
+  height: 24px;
+  width: 24px;
+}
+.action-icons2,
+.user-content-notification2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.user-content-notification2 {
+  align-self: stretch;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 750px) {
+  .user-content-notification2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .user-image-notification2 {
+    flex-wrap: wrap;
+  }
+}

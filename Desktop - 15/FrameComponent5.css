@@ -1,0 +1,65 @@
+.image-icon {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+}
+.people-inlove-with {
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 184%;
+}
+.last-active-20 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.people-inlove-with-dogs-parent {
+  width: 177px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-11xs);
+}
+.image-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.view {
+  position: relative;
+  font-size: var(--font-size-xl);
+  text-decoration: underline;
+  font-weight: 500;
+  color: var(--color-brown);
+}
+.frame-parent5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 450px) {
+  .people-inlove-with {
+    font-size: var(--font-size-lgi);
+  }
+  .view {
+    font-size: var(--single-line-body-base-size);
+  }
+  .frame-parent5 {
+    flex-wrap: wrap;
+  }
+}

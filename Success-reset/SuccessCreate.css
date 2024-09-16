@@ -1,0 +1,194 @@
+.main-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.password-reset-successful {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.your-password-has {
+  align-self: stretch;
+  height: 38px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-200);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.header {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.button,
+.icons {
+  position: relative;
+}
+.button {
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--background-default-default);
+  text-align: left;
+  display: inline-block;
+  min-width: 61px;
+}
+.icons {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-131xl);
+  background-color: var(--button);
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.button-parent:hover {
+  background-color: var(--color-dimgray-500);
+}
+.header-parent {
+  width: 512px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 89px;
+  max-width: 100%;
+}
+.adopt-a-pet-amico-1 {
+  height: 600px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 390px;
+}
+.main,
+.sidebar,
+.success-reset {
+  display: flex;
+  justify-content: flex-start;
+}
+.sidebar {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 131px 0 68px;
+  box-sizing: border-box;
+  gap: 129px;
+  max-width: 100%;
+}
+.main,
+.success-reset {
+  flex-direction: column;
+}
+.main {
+  align-self: stretch;
+  align-items: center;
+  gap: 62px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+.success-reset {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-default-default);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 0 60px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .header-parent {
+    flex: 1;
+  }
+  .sidebar {
+    gap: 64px;
+    flex-wrap: wrap;
+    padding-left: 34px;
+    padding-right: 65px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .password-reset-successful {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .main-inner {
+    gap: var(--gap-14xl);
+  }
+  .header-parent {
+    gap: var(--gap-25xl);
+    min-width: 100%;
+  }
+  .adopt-a-pet-amico-1 {
+    min-width: 100%;
+  }
+  .sidebar {
+    gap: var(--gap-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .main {
+    gap: var(--gap-12xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-inner {
+    gap: var(--gap-base);
+  }
+  .password-reset-successful {
+    font-size: var(--font-size-5xl);
+  }
+  .your-password-has {
+    font-size: var(--single-line-body-base-size);
+  }
+  .button {
+    font-size: var(--font-size-xl);
+  }
+  .button-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .header-parent {
+    gap: var(--gap-3xl);
+  }
+  .sidebar {
+    gap: var(--gap-base);
+  }
+  .main {
+    gap: var(--gap-mini);
+  }
+}
