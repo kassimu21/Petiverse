@@ -1,0 +1,227 @@
+.adopt-a-pet-amico-1 {
+  height: 600px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 390px;
+}
+.forgot-your-password {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.enter-the-email {
+  height: 17px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  color: var(--color-dimgray-200);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.forgot-your-password-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.frame-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  border: 2px solid var(--color-dimgray-600);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.namegmailcom {
+  width: 150px;
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  font-family: var(--font-lato);
+  font-size: var(--font-size-xl);
+  background-color: transparent;
+  height: 14px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 7px);
+  left: 19.8px;
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent {
+  align-self: stretch;
+  height: 65px;
+  border-radius: var(--br-8xs);
+  border: 2px solid var(--color-dimgray-600);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.button,
+.icons {
+  position: relative;
+}
+.button {
+  text-decoration: none;
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--background-default-default);
+  text-align: left;
+  display: inline-block;
+  min-width: 61px;
+}
+.icons {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) var(--padding-174xl) var(--padding-xl) 194px;
+  background-color: var(--button);
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.button-parent:hover {
+  background-color: var(--color-dimgray-500);
+}
+.frame-parent,
+.frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  align-self: stretch;
+  gap: var(--gap-15xl);
+}
+.frame-wrapper {
+  padding: 158.5px 0 0;
+  box-sizing: border-box;
+}
+.adopt-a-pet-amico-1-parent {
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0;
+  gap: 176px;
+}
+.adopt-a-pet-amico-1-parent,
+.wireframe-7,
+.wireframe-7-inner {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.wireframe-7-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+.wireframe-7 {
+  width: 1440px;
+  background-color: var(--background-default-default);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-92xl);
+  gap: 41px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .adopt-a-pet-amico-1-parent {
+    gap: var(--gap-69xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .forgot-your-password {
+    font-size: var(--font-size-13xl);
+  }
+  .frame-wrapper {
+    flex: 1;
+  }
+  .adopt-a-pet-amico-1-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .adopt-a-pet-amico-1,
+  .frame-wrapper {
+    min-width: 100%;
+  }
+  .adopt-a-pet-amico-1-parent {
+    gap: var(--gap-25xl);
+  }
+  .wireframe-7 {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .forgot-your-password {
+    font-size: var(--font-size-5xl);
+  }
+  .enter-the-email {
+    font-size: var(--font-size-lgi);
+  }
+  .namegmailcom {
+    font-size: var(--single-line-body-base-size);
+  }
+  .button {
+    font-size: var(--font-size-xl);
+  }
+  .button-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    gap: var(--gap-mid);
+  }
+  .frame-wrapper {
+    padding-top: 103px;
+    box-sizing: border-box;
+  }
+  .adopt-a-pet-amico-1-parent {
+    gap: var(--gap-3xl);
+  }
+}
