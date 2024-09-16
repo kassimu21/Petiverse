@@ -1,0 +1,180 @@
+.account-created-succesfully,
+.your-account-has {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.account-created-succesfully {
+  margin: 0;
+  height: 29px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.your-account-has {
+  align-self: stretch;
+  height: 54px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-dimgray-200);
+}
+.success-message {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.button,
+.icons {
+  position: relative;
+}
+.button {
+  font-size: var(--font-size-6xl);
+  font-weight: 500;
+  font-family: var(--font-lato);
+  color: var(--background-default-default);
+  text-align: left;
+  display: inline-block;
+  min-width: 61px;
+}
+.icons {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button-parent,
+.right-form {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.button-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl) 145px;
+  background-color: var(--button);
+  border-radius: var(--br-11xs);
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.button-parent:hover {
+  background-color: var(--color-dimgray-500);
+}
+.right-form {
+  width: 496px;
+  box-shadow: 0 2px 25.4px 1px rgba(169, 0, 0, 0.13);
+  border-radius: var(--br-12xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 86px;
+}
+.adopt-a-pet-amico-1 {
+  height: 600px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 390px;
+}
+.form-inputs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-92xl);
+  box-sizing: border-box;
+  gap: var(--gap-103xl);
+  max-width: 100%;
+}
+.form-structure,
+.success-create2 {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.form-structure {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-37xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+.success-create2 {
+  width: 1440px;
+  background-color: var(--background-default-default);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-121xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .right-form {
+    flex: 1;
+  }
+  .form-inputs {
+    gap: var(--gap-42xl);
+    flex-wrap: wrap;
+    padding-left: var(--padding-36xl);
+    padding-right: var(--padding-36xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .account-created-succesfully {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .success-message {
+    gap: var(--gap-xl);
+  }
+  .right-form {
+    gap: var(--gap-24xl);
+  }
+  .adopt-a-pet-amico-1,
+  .right-form {
+    min-width: 100%;
+  }
+  .form-inputs {
+    gap: var(--gap-11xl);
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .form-structure {
+    gap: var(--gap-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .account-created-succesfully {
+    font-size: var(--font-size-5xl);
+  }
+  .your-account-has {
+    font-size: var(--font-size-3xl);
+  }
+  .button {
+    font-size: var(--font-size-xl);
+  }
+  .button-parent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .form-inputs {
+    gap: var(--gap-mini);
+  }
+}
