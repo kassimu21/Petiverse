@@ -1,0 +1,406 @@
+.preferred-language {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+}
+.icons40 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.language-select {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-7xs) 0 0;
+  gap: var(--gap-xl);
+}
+.british-english {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--single-line-body-base-size);
+  font-weight: 300;
+  color: inherit;
+}
+.language-option {
+  align-self: stretch;
+  border-bottom: 0.2px solid var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xs);
+  gap: var(--gap-5xs);
+}
+.advertisments {
+  position: relative;
+  font-weight: 500;
+}
+.advertisments-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.puppy-pets-store {
+  position: relative;
+}
+.ad-item,
+.image-icon12 {
+  align-self: stretch;
+  flex: 1;
+}
+.image-icon12 {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ad-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.see-more {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-darkturquoise);
+}
+.ad-feed {
+  align-self: stretch;
+  flex: 1;
+  border-bottom: 0.2px solid var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xs);
+  gap: var(--gap-xs);
+}
+.bring-in-your,
+.cap-stone-medical {
+  align-self: stretch;
+  position: relative;
+}
+.bring-in-your {
+  font-size: var(--font-size-sm);
+  font-weight: 300;
+  color: var(--color-black);
+}
+.ad-details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.ad-item1,
+.image-icon13 {
+  align-self: stretch;
+  flex: 1;
+}
+.image-icon13 {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ad-item1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.see-more1 {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-darkturquoise);
+}
+.ad-content,
+.ad-feed1 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ad-feed1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.ad-content {
+  gap: var(--gap-xs);
+  font-size: var(--single-line-body-base-size);
+  color: var(--color-brown);
+}
+.ad-content,
+.advertisement-settings,
+.language-settings,
+.settings-content {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.advertisement-settings {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-sm);
+}
+.language-settings,
+.settings-content {
+  align-items: center;
+}
+.language-settings {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.settings-content {
+  border-radius: var(--br-11xs);
+  background-color: var(--background-default-default);
+  flex-direction: row;
+  padding: var(--padding-lg-1) var(--padding-xl) var(--padding-lg-1)
+    var(--padding-lg);
+}
+.connections1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 112px;
+}
+.icons41 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.connection-header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.image-icon14 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.alexendra-al-himcut {
+  align-self: stretch;
+  position: relative;
+}
+.connection-list,
+.profile-names {
+  display: flex;
+  justify-content: flex-start;
+}
+.profile-names {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.connection-list {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.image-icon15 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.mc-hennery-fell {
+  align-self: stretch;
+  position: relative;
+}
+.mc-hennery-fell-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connection-list1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.image-icon16 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.diana-mackie {
+  align-self: stretch;
+  position: relative;
+}
+.diana-mackie-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connection-list2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.image-icon17 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.jason-optimum {
+  align-self: stretch;
+  position: relative;
+}
+.jason-optimum-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connection-list3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.image-icon18 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.stone-floxy {
+  align-self: stretch;
+  position: relative;
+}
+.stone-floxy-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connection-list4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.image-icon19 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.brenda-maculay {
+  align-self: stretch;
+  position: relative;
+}
+.brenda-maculay-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connection-list5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.connection-content,
+.user-connections {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-connections {
+  width: 237px;
+  gap: var(--gap-6xl);
+  font-size: var(--font-size-lg);
+}
+.connection-content {
+  flex: 1;
+  gap: var(--gap-19xl);
+}
+.connection-content-wrapper,
+.settings-content-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.connection-content-wrapper {
+  align-self: stretch;
+  height: 574.5px;
+  border-radius: var(--br-11xs);
+  background-color: var(--background-default-default);
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-xl)
+    var(--padding-lg);
+}
+.settings-content-parent {
+  width: 319.5px;
+  flex-direction: column;
+  padding: 0 0 var(--padding-12xs-1);
+  gap: var(--gap-mini);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 750px) {
+  .advertisments,
+  .connections1,
+  .preferred-language {
+    font-size: var(--single-line-body-base-size);
+  }
+  .connection-content {
+    gap: var(--gap-lgi);
+  }
+}

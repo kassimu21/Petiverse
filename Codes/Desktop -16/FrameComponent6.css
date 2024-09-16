@@ -1,0 +1,76 @@
+.image-icon5 {
+  height: 60px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+}
+.congratulate-shaitima-on {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.hours-ago {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.congratulate-shaitima-on-his-b-parent,
+.image-parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.congratulate-shaitima-on-his-b-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+  min-width: 283px;
+}
+.image-parent {
+  width: 505px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.icons10,
+.icons11 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons11 {
+  height: 24px;
+  width: 24px;
+}
+.frame-group,
+.icons-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame-group {
+  align-self: stretch;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 750px) {
+  .frame-group {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .image-parent {
+    flex-wrap: wrap;
+  }
+}

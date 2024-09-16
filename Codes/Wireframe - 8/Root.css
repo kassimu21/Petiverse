@@ -1,0 +1,145 @@
+.main-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.check-your-email {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  font-weight: 700;
+  font-family: inherit;
+}
+.an-email-has,
+.enter {
+  position: relative;
+  font-weight: 500;
+}
+.an-email-has {
+  color: var(--color-dimgray-200);
+}
+.enter {
+  height: 20px;
+  color: #613105;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.right-form {
+  width: 540px;
+  box-shadow: 0 2px 25.4px 1px rgba(169, 0, 0, 0.13);
+  border-radius: var(--br-12xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 30.5px;
+  max-width: 100%;
+}
+.adopt-a-pet-amico-1 {
+  height: 600px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 390px;
+}
+.right-form-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 97px;
+  box-sizing: border-box;
+  gap: 106px;
+  max-width: 100%;
+}
+.main,
+.root {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main {
+  align-self: stretch;
+  align-items: center;
+  gap: 73px;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+.root {
+  width: 1440px;
+  background-color: var(--background-default-default);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 0 87px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .right-form {
+    flex: 1;
+  }
+  .right-form-parent {
+    gap: var(--gap-34xl);
+    flex-wrap: wrap;
+    padding-left: var(--padding-29xl);
+    padding-right: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .check-your-email {
+    font-size: var(--font-size-13xl);
+  }
+  .right-form {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .main-inner {
+    gap: var(--gap-14xl);
+  }
+  .right-form {
+    gap: var(--gap-mini);
+  }
+  .adopt-a-pet-amico-1 {
+    min-width: 100%;
+  }
+  .right-form-parent {
+    gap: var(--gap-7xl);
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .main {
+    gap: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .main-inner {
+    gap: var(--gap-base);
+  }
+  .check-your-email {
+    font-size: var(--font-size-5xl);
+  }
+  .an-email-has,
+  .enter {
+    font-size: var(--font-size-3xl);
+  }
+  .main {
+    gap: var(--gap-lg);
+  }
+}

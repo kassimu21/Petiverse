@@ -1,0 +1,218 @@
+.iverse {
+  color: var(--color-black);
+}
+.petiverse {
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+.icons28,
+.menu1,
+.petiverse {
+  position: relative;
+}
+.icons28 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.menu1 {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 53px;
+}
+.user-actions-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.icons29 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.notifications1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 115px;
+}
+.user-actions-icons1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.icons30 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.messages1 {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+}
+.user-actions-icons2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.icons31 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.profile {
+  text-decoration: none;
+  position: relative;
+  font-weight: 500;
+  color: inherit;
+}
+.user-actions,
+.user-actions-icons3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.user-actions {
+  justify-content: center;
+  gap: var(--gap-12xl);
+  max-width: 100%;
+}
+.icons32 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.search-petiverse {
+  width: 108px;
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  font-family: var(--font-lato);
+  font-size: var(--font-size-mini);
+  background-color: transparent;
+  position: relative;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.search-bar {
+  border-radius: var(--br-xl);
+  background-color: var(--color-whitesmoke-200);
+  border: 1px solid var(--border-default-default);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-48xl) var(--padding-5xs)
+    var(--padding-3xs);
+  gap: var(--gap-3xs);
+}
+.log-out {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 68px;
+}
+.logout-button {
+  align-self: stretch;
+  border-radius: var(--br-10xs);
+  border: 0.5px solid var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-4xs) var(--padding-sm);
+}
+.search {
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.petiverse-parent,
+.search,
+.top-right {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.top-right {
+  width: 1019px;
+  justify-content: center;
+  gap: var(--gap-164xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+}
+.petiverse-parent {
+  box-shadow: 0 2px 13.1px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20.4px);
+  background-color: var(--color-gray-400);
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-11xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-mediumspringgreen);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 1150px) {
+  .top-right {
+    gap: var(--gap-72xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .top-right {
+    gap: var(--gap-4xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .user-actions {
+    gap: var(--gap-mini);
+  }
+  .search {
+    display: none;
+  }
+  .top-right {
+    width: 685px;
+    gap: var(--gap-27xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .user-actions {
+    display: none;
+  }
+  .top-right {
+    width: 517px;
+  }
+}

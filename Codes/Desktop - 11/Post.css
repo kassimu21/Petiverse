@@ -1,0 +1,291 @@
+image-icon10 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.alexendra-al-himcut1 {
+  align-self: stretch;
+  position: relative;
+}
+.th-september-2024 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-weight: 300;
+}
+.post-header,
+.post-user {
+  display: flex;
+  justify-content: flex-start;
+}
+.post-user {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-11xs);
+}
+.post-header {
+  width: 237px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-3xs);
+}
+.icons24,
+.icons25 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.post-content1,
+.post-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.post-content1 {
+  width: 742px;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.see-more2 {
+  text-decoration: underline;
+  color: var(--color-brown);
+}
+.image-icon11,
+.just-got-jackie-container {
+  align-self: stretch;
+  position: relative;
+}
+.image-icon11 {
+  height: 294.7px;
+  border-radius: var(--br-mini);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.just-got-jackie-from-the-vet-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  max-width: 100%;
+}
+.icons26,
+.k {
+  position: relative;
+}
+.icons26 {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.k {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 32px;
+}
+.engagement-count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.comments,
+.k1 {
+  position: relative;
+  display: inline-block;
+  min-width: 32px;
+}
+.comments {
+  min-width: 88px;
+}
+.engagement-numbers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.div,
+.shares {
+  position: relative;
+}
+.shares {
+  text-decoration: none;
+  color: inherit;
+}
+.engagement-details,
+.engagement-numbers1,
+.post-engagements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.engagement-details,
+.post-engagements {
+  gap: var(--gap-mini);
+}
+.post-engagements {
+  width: 737px;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.engagement-dividers {
+  align-self: stretch;
+  height: 0.5px;
+  position: relative;
+  border-top: 0.5px solid var(--color-darkgray);
+  box-sizing: border-box;
+}
+.icons27 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons27,
+.like {
+  position: relative;
+}
+.engagement-options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.icons28 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.comment,
+.icons28 {
+  position: relative;
+}
+.engagement-options1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.icons29 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons29,
+.repost {
+  position: relative;
+}
+.engagement-options2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.icons30 {
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons30,
+.share {
+  position: relative;
+}
+.engagement-buttons,
+.engagement-options3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+}
+.engagement-buttons {
+  width: 731px;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.engagement-dividers1 {
+  align-self: stretch;
+  height: 0.5px;
+  position: relative;
+  border-top: 0.5px solid var(--color-darkgray);
+  box-sizing: border-box;
+}
+.engagement-divider,
+.post-actions,
+.post-body,
+.post3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.engagement-divider {
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+}
+.post-actions,
+.post-body,
+.post3 {
+  gap: var(--gap-xs);
+  color: var(--color-dimgray-100);
+}
+.post-body,
+.post3 {
+  gap: var(--gap-3xs);
+  color: var(--color-dimgray-300);
+}
+.post3 {
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 450px) {
+  .post-content1,
+  .post-engagements {
+    flex-wrap: wrap;
+  }
+  .comment,
+  .like,
+  .repost,
+  .share {
+    font-size: var(--single-line-body-base-size);
+  }
+  .engagement-buttons {
+    flex-wrap: wrap;
+  }
+}
