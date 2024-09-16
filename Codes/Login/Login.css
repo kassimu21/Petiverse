@@ -1,0 +1,565 @@
+.login-to-continue {
+  margin: 0;
+  align-self: stretch;
+  height: 29px;
+  position: relative;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.connect-with-fellow {
+  height: 52px;
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+  text-transform: lowercase;
+  display: inline-block;
+  max-width: 100%;
+}
+.email-input-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.email-address {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 140%;
+  font-family: var(--font-lato);
+}
+.description,
+.namegmailcom {
+  position: relative;
+  line-height: 140%;
+  color: var(--text-default-secondary);
+  display: none;
+}
+.namegmailcom {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-lato);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  height: 25px;
+  flex: 1;
+  line-height: 100%;
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 250px;
+  padding: 0;
+  max-width: 100%;
+}
+.input {
+  align-self: stretch;
+  height: 65px;
+  border-radius: var(--radius-200);
+  background-color: var(--background-default-default);
+  border: 1px solid var(--border-default-default);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-lg) var(--padding-smi) var(--padding-lg)
+    var(--space-400);
+  min-width: 240px;
+  max-width: 100%;
+}
+.error {
+  position: relative;
+  line-height: 140%;
+  display: none;
+}
+.input-field {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--space-200);
+  max-width: 100%;
+}
+.checkbox {
+  margin: 0;
+  width: 16px;
+  border-radius: var(--radius-100);
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.remember-me {
+  position: relative;
+  line-height: 100%;
+}
+.checkbox-and-label,
+.checkbox-field {
+  display: flex;
+  justify-content: flex-start;
+}
+.checkbox-and-label {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 287px 0 0;
+  gap: var(--gap-8xs);
+}
+.checkbox-field {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.forgot-password {
+  position: relative;
+  font-size: var(--single-line-body-base-size);
+  text-decoration: underline;
+  font-weight: 600;
+  color: var(--button);
+}
+.remember-forgot-password {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-lato);
+}
+.star-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button1 {
+  position: relative;
+  font-size: var(--single-line-body-base-size);
+  line-height: 100%;
+  font-family: var(--single-line-body-base);
+  color: var(--text-neutral-default);
+  text-align: left;
+}
+.x-icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  flex-shrink: 0;
+}
+.button,
+.star-icon1,
+.x-icon {
+  overflow: hidden;
+  display: none;
+}
+.button {
+  width: 112px;
+  border-radius: var(--radius-200);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-300);
+  box-sizing: border-box;
+  gap: var(--space-200);
+}
+.star-icon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  flex-shrink: 0;
+}
+.create-account {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 100%;
+  font-weight: 600;
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: left;
+}
+.x-icon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button-group,
+.button2,
+.form-contact {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.button2 {
+  border-radius: var(--br-9xs);
+  border: 2px solid var(--background-brand-default);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-mini) 196px;
+  gap: var(--space-200);
+}
+.button-group,
+.form-contact {
+  justify-content: flex-start;
+}
+.button-group {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 60px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-400);
+}
+.form-contact {
+  border-radius: var(--radius-200);
+  background-color: var(--background-default-default);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-21xl) var(--space-600);
+  box-sizing: border-box;
+  gap: var(--space-600);
+  min-width: 320px;
+}
+.or-child {
+  height: 1px;
+  flex: 1;
+  border-top: 1px solid var(--color-dimgray-200);
+  box-sizing: border-box;
+}
+.or-child,
+.or-item,
+.or1 {
+  position: relative;
+}
+.or1 {
+  height: 17px;
+  font-weight: 300;
+  display: inline-block;
+}
+.or-item {
+  height: 1px;
+  flex: 1;
+  border-top: 1px solid #958888;
+  box-sizing: border-box;
+}
+.or,
+.separator {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.or {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-12xs) 150px;
+  gap: var(--gap-5xs);
+}
+.separator {
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+.email-input-container,
+.password-input-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.password-input-container {
+  align-items: center;
+  text-align: left;
+  font-size: var(--single-line-body-base-size);
+  color: var(--text-default-default);
+  font-family: var(--single-line-body-base);
+}
+.email-input-container {
+  align-items: flex-start;
+  gap: 22px;
+}
+.google-child {
+  height: 40.2px;
+  width: 283.2px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  border: 0.5px solid var(--color-dimgray-400);
+  box-sizing: border-box;
+  display: none;
+}
+.image-1-icon {
+  height: 36.6px;
+  width: 25.4px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.log-in-with {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  min-width: 110px;
+  z-index: 1;
+}
+.provider-login {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 13.3px 0 0;
+}
+.facebook-child,
+.google {
+  border-radius: var(--br-11xs);
+  border: 0.5px solid var(--color-dimgray-400);
+  box-sizing: border-box;
+}
+.google {
+  cursor: pointer;
+  padding: var(--padding-7xs) 57px 2px;
+  background-color: transparent;
+  flex: 0.9256;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+  min-width: 188px;
+}
+.facebook-child {
+  height: 40.2px;
+  width: 283.2px;
+  position: relative;
+  display: none;
+}
+.image-1-icon1 {
+  height: 25.1px;
+  width: 25.1px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.log-in-with1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-lato);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  min-width: 125px;
+  z-index: 1;
+}
+.log-in-with-facebook-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 7.6px 0 0;
+}
+.facebook,
+.social-buttons,
+.social-login {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.facebook {
+  cursor: pointer;
+  border: 0.5px solid var(--color-dimgray-400);
+  padding: var(--padding-4xs) 50px var(--padding-3xs);
+  background-color: transparent;
+  flex: 1;
+  border-radius: var(--br-11xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  gap: var(--gap-2xs);
+  min-width: 188px;
+}
+.social-buttons,
+.social-login {
+  max-width: 100%;
+}
+.social-buttons {
+  flex: 1;
+  gap: 7px;
+}
+.social-login {
+  align-self: stretch;
+  padding: 0 var(--padding-sm);
+  box-sizing: border-box;
+}
+.email-field {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xl);
+}
+.credentials,
+.email-field,
+.login-form-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.credentials {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 41px 0 var(--padding-21xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+}
+.login-form-container {
+  width: 695.9px;
+  flex-direction: column;
+  gap: var(--gap-10xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-lato);
+}
+.login-form-container-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-default-default);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 121.8px;
+  box-sizing: border-box;
+  gap: 69px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .login-to-continue {
+    font-size: var(--font-size-13xl);
+  }
+  .email-address {
+    font-size: var(--font-size-5xl);
+    line-height: 34px;
+  }
+  .login {
+    gap: var(--gap-15xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .remember-forgot-password {
+    flex-wrap: wrap;
+  }
+  .button2 {
+    padding-left: var(--padding-79xl);
+    padding-right: var(--padding-79xl);
+  }
+  .button2,
+  .form-contact,
+  .or {
+    box-sizing: border-box;
+  }
+  .form-contact {
+    padding-top: var(--space-600);
+    padding-bottom: var(--space-600);
+  }
+  .or {
+    padding-left: var(--padding-56xl);
+    padding-right: var(--padding-56xl);
+  }
+  .social-buttons {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .login-to-continue {
+    font-size: var(--font-size-5xl);
+  }
+  .connect-with-fellow {
+    font-size: var(--font-size-lgi);
+    line-height: 28px;
+  }
+  .email-address {
+    font-size: var(--font-size-lg);
+    line-height: 25px;
+  }
+  .namegmailcom {
+    font-size: var(--font-size-xl);
+    line-height: 20px;
+  }
+  .checkbox-and-label {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .create-account {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .button2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .or1 {
+    font-size: var(--font-size-lgi);
+  }
+  .or {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .google {
+    flex: 1;
+  }
+  .facebook,
+  .google {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .login {
+    gap: var(--gap-mid);
+  }
+}
